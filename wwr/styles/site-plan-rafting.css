@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
+body {
+  font-family: 'Roboto','serif';
+  max-width: 960px;
+  padding: 20px;
+}
+:root {
+  --primary-color: #D88373;
+  --secondary-color: #18206F;
+  --accent1-color: #18206F;
+  --accent2-color: #F5E2C8;
+
+  --heading-font: 'Rock salt','cursive';
+  --paragraph-font: 'Roboto', 'serif';
+
+  --nav-background-color: #D88373;
+  --nav-link-color: #17255A;
+  --nav-hover-link-color: #17255A;
+  --nav-hover-background-color: #18206F;
+}
+body {
+  font-family: 'Roboto', 'serif';
+  max-width: 960px;
+  padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rock salt','cursive';
+  color: #17255A;
+}
+header {
+  padding: 20px;
+  background-color: #D88373;
+}
+p {
+  padding: 25px;
+}
+nav {
+  background-color: #D88373;
+  font-size: 1.2rem;
+  display: flex 0,0,1;
+}
+
+nav a {
+  display: block;
+  color: #18206F;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: #18206F;
+}
+
+nav a:hover {
+  color: #18206F
+  background-color-#18206F;
+}
