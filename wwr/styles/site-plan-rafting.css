@@ -38,7 +38,7 @@ p {
 nav {
   background-color: #D88373;
   font-size: 1.2rem;
-  display: flex 0,0,1;
+  display: flex 0;
 }
 
 nav a {
@@ -53,6 +53,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-  color: #18206F
-  background-color-#18206F;
+  color: #18206F;
+  background-color: #18206F;
 }
