@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,15 +21,15 @@ h1{
     color: steelblue;
     padding: .5rem
 }
-main img{
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
-}
+    }
+
 p{
     margin: 1rem;
 }
@@ -44,7 +44,7 @@ aside {
     position: relative;
   }
 
-  aside h2{
+aside h2 {
     position: absolute;
     top: 55px;
     left: 100px;
@@ -57,6 +57,7 @@ footer{
 }
 
 /* Class Selectors */
+
 .box {
   margin: 1rem;
   border: 1px solid rgba(0,0,0,.1);
@@ -64,7 +65,8 @@ footer{
   background-color: #eee;
   color: #000;
 } 
- indent{
+ 
+indent{
     margin-left: 2rem;
  }
   
