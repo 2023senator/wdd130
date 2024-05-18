@@ -1,10 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
-body {
-  font-family: 'Roboto','serif';
-  max-width: 960px;
-  padding: 20px;
-}
+
+
 :root {
   --primary-color: #D88373;
   --secondary-color: #18206F;
@@ -19,6 +16,7 @@ body {
   --nav-hover-link-color: #17255A;
   --nav-hover-background-color: #18206F;
 }
+
 body {
   font-family: 'Roboto', 'serif';
   max-width: 960px;
@@ -29,14 +27,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #17255A;
 }
 header {
-  padding: 20px;
-  background-color: #D88373;
+  padding: 10px;
+  background-color:#D88373  ;
 }
 p {
   padding: 25px;
 }
 nav {
-  background-color: #D88373;
+  background-color: #D88373; 
   font-size: 1.2rem;
   display: block;
 }
@@ -55,4 +53,27 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: #18206F;
   background-color: #18206F;
+}
+
+
+.hero {
+	margin: 10px auto;
+	position :relative;/* If removed, what happens? */
+}
+
+.hero img {
+	width: 30%;
+	height: 30%;
+	object-fit :cover ;
+}
+
+.stats {
+	position: absolute;
+	bottom: 25px;
+  left: 15px;
+  background:  #D88373;
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
 }
