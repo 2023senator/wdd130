@@ -90,14 +90,11 @@ nav a {
   height: 25rem;
   width: 35rem;
 }
-.div4{
+.div4, .div5{
   height: 20rem;
   width:  25rem;
 }
-.div5{
-  height: 20rem;
-  width:  10rem;
-}
+
 
 footer {
 	position: relative;
