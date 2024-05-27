@@ -109,6 +109,7 @@ footer {
   width: 38rem;
   height: 25rem;
   display: flex;
+  background-color: #fff;
   text-align: start;
   justify-content: space-evenly;
   margin-left: 28rem;
