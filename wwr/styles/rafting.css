@@ -34,18 +34,21 @@ body {
 
 h1 {
   position: relative;
-  left: 20rem;
-  font-size: 24px;
+  left: 30rem;
+  font-size: 26px;
   font-family: "Roboto", serif;;
   color:#d88373 ;
 }
 
-h2,
-h3 {
+h2{
   font-family: "Rock Salt", "cursive";
   color: #17255a;
-  font-size: 18px;
+  font-size: 20px;
+  align-content: center;
+  margin-left: 32rem;
+  margin-top: 1rem;
 }
+
 
 .hero {
   margin-top: 2rem;
@@ -93,7 +96,7 @@ h3 {
 }
 
 .section-div {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .middle p {
@@ -118,6 +121,14 @@ h3 {
   height: 6rem;
   border-radius: 0.5rem;
 }
+
+.foot-img {
+  margin-left: 30rem;
+  }
+
+.footer p{
+  margin-top: 2rem;
+  }
 
 img {
   height: 5rem;
@@ -158,16 +169,16 @@ img {
 
 .heading {
   margin-left: 30rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .pics-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 
 .pics-div div {
-  margin: 2rem;
+  margin: 3rem;
 }
