@@ -62,9 +62,6 @@ nav a {
 .navbar {
   background-color: #3A6EA5; /* Blue color */
   overflow: hidden;
-}
-
-.nav-menu{
   list-style: none;
   display: flex;
   justify-content: center;
@@ -87,7 +84,6 @@ nav a {
 .nav-link:hover {
   background-color: #2E5A8A; /* Darker blue on hover */
 }
-
 
 h1 {
   margin-left: 30rem;
